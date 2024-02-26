@@ -80,13 +80,13 @@ int main()
     // int H,M,S;
     // cin >> H >> M >> S;
     // Time SimpleTime(H,M,S);
-    // cout << SimpleTime.getH() << ":" << SimpleTime.getM() << ":" << SimpleTime.getS() << endl;
+    // cout << SimpleTime.getHour() << ":" << SimpleTime.getMinute() << ":" << SimpleTime.getSecond() << endl;
 
     // //Test Time Validation using Durations
     // int DU;
     // cin >> DU;
     // Time SimpleTime(DU);
-    // cout << SimpleTime.getH() << ":" << SimpleTime.getM() << ":" << SimpleTime.getS() << endl;
+    // cout << SimpleTime.getHour() << ":" << SimpleTime.getMinute() << ":" << SimpleTime.getSecond() << endl;
 
     // //Test Subtract Time
     // Time timeA(2,2,2);
@@ -98,10 +98,10 @@ int main()
     // //Test Add Time
     // Time timeC(23,59,30);
     // Time timeD(2,0,35);
-    // cout << "a+b is " << timeC.add(timeD).getH() << ":" << timeC.add(timeD).getM() << ":" << timeC.add(timeD).getS() << endl;
+    // cout << "a+b is " << timeC.add(timeD).getHour() << ":" << timeC.add(timeD).getMinute() << ":" << timeC.add(timeD).getSecond() << endl;
 
     //Test getString
     // Time timeE(20,4,51);
     // cout << timeE.toString() << endl;
-
+    return 0;
 }
