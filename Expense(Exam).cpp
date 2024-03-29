@@ -7,7 +7,7 @@ protected:
     double amount;
 public:
     Expense(int, int, int, double);
-    virtual double daliyExpense(int, int, int);
+    virtual double dailyExpense(int, int, int);
     virtual double monthlyExpense(int, int);
 };
 
@@ -17,7 +17,7 @@ Expense::Expense(int d, int m, int y, double amt) {
     this->year = y;
     this->amount = amt;
 }
-double Expense::daliyExpense(int d, int m, int y) {
+double Expense::dailyExpense(int d, int m, int y) {
     if (d != day || m != month || y != year) {
         return 0;
     }
