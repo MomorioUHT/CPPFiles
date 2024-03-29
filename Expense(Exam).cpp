@@ -31,5 +31,9 @@ double Expense::monthlyExpense(int m, int y) {
 }  
 
 int main() {
-    //ให้นิสิตเขียน main ทดสอบเอง ไอ้ล้มเหลว
+    Expense breakfast = Expense(1, 2, 2024, 45);
+    Expense *lunch = new Expense(2, 2 ,2024, 120);
+    cout << breakfast.dailyExpense(1, 2, 2024) << endl;
+    cout << lunch->dailyExpense(2, 2, 2024) << endl;
+    cout << lunch->monthlyExpense(2, 2024) << endl;
 }
